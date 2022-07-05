@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+import CounterOne from './components/CounterOne';
 import './App.css';
-
+import Countertwo from './components/Countertwo';
+import Counterthree from './components/Counterthree';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+    <Counterthree/>  
+    <CounterOne></CounterOne>
+    <Countertwo/>
     </div>
   );
 }
 
 export default App;
+
